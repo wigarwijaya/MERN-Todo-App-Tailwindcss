@@ -1,0 +1,25 @@
+POST http://localhost:3000/api/item
+Content-Type: application/json
+
+{
+    "item": "This is the third todo item"
+}
+
+###
+
+GET http://localhost:3000/api/items
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3000/api/item/636c9cf5fb86044196ac0691
+Content-Type: application/json
+
+{
+    "item": "This is the first todo item being updated!!!"
+}
+
+###
+
+DELETE  http://localhost:3000/api/item/636ca010fdaa62a5568401f3
+Content-Type: application/json
